@@ -88,6 +88,12 @@ class SwapBot {
       BotConsts.gasLimit,
     );
 
+    print('Tentativa de compra em:');
+    print('Token min: $amountMinOut');
+    print('Token max: $amountMaxOut');
+    print('Valor de compra: $amountIn');
+    print('BOA SORTE!!');
+
     print('https://www.bscscan.com/tx/$tx');
   }
 }

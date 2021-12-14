@@ -74,8 +74,7 @@ class SmartContract implements ISmartContract {
         maxGas: gasMax,
         value: value,
       ),
-      chainId: null,
-      fetchChainIdFromNetworkId: true,
+      chainId: 56, // Chainid BSC
     );
   }
 }

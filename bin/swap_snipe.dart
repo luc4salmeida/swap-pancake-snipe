@@ -8,7 +8,7 @@ import 'package:web3dart/web3dart.dart';
 // THC TOKEN
 // '0x24802247bd157d771b7effa205237d8e9269ba8a'
 
-void main(List<String> arguments) {
+Future<void> main(List<String> arguments) async {
   final httpClient = http.Client();
 
   final web3Client = Web3Client(
@@ -34,5 +34,5 @@ void main(List<String> arguments) {
     swapTokenAddr: swapToken,
   );
 
-  bot.run();
+  await bot.run();
 }
